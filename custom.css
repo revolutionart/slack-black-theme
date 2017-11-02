@@ -1,5 +1,6 @@
 /*
-Copyright 2017 Bryan Keller (https://github.com/widget-)
+Copyright 2017 Bryan Keller (https://github.com/widget-) main layout
+Colors Modified by Mark Bos/Revolutionart
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -84,6 +85,20 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link:hover {
    color: var(--text) !important;
 }
+.p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot::before {
+    color: #37864d !important;
+}
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:hover {
+    background: #37864d !important;
+    margin: 0 10px !important;
+    width: 90% !important;
+    padding: 5px !important;
+    border-radius: 4px !important; 
+	color: #fff !important;
+}
+
+ts-message .message_gutter {padding-right: 15px !important;}
+ts-message .message_content {margin-left: 82px !important;}
 
 /* Channel with unread messages */
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,
@@ -91,7 +106,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__quickswitcher:hover {
-   color: var(--text-bright) !important;
+   color: #FFF !important;
 }
 
 /*broken*/
@@ -115,10 +130,13 @@ ts-jumper input[type="text"],
 /* channel list */
 .p-channel_sidebar__channel,
 .p-channel_sidebar__link {
-  border-radius: 0 15px 15px 0;
+  border-radius: 4px;
   height: 24px !important;
+  margin: 5px 10px;
+  width: 90%;
+  padding: 5px;
+ border-radius: 4px;
 }
-
 .p-channel_sidebar__channel a {
   color: var(--text);
 }
@@ -136,9 +154,9 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__link--selected:visited,
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
-   background-color: var(--background) !important;
+   background-color: #37864d !important;
    border: solid var(--border-bright);
-   border-width: 1px 1px 1px 0;
+   border-width: 0;
 }
 
 .p-channel_sidebar__channel:hover,
@@ -225,10 +243,14 @@ ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
   color: var(--text) !important;
 }
-
+.light_theme ts-message .message_content .message_sender {
+    font-weight: 900;
+    color: #298041 !important;
+    line-height: 18px;
+}
 .light_theme ts-message .message_content a.message_sender, #msg_input::-webkit-input-placeholder,
 ts-jumper input[type="text"]::-webkit-input-placeholder {
-  color: var(--text) !important;
+  color: #298041 !important;
 }
 
 #msg_input, #primary_file_button {
@@ -541,7 +563,14 @@ ts-message a.timestamp{
    border-color: var(--border-dim);
    color: var(--text);
 }
-
+#client_header {
+    background: #298041 !important;
+    box-shadow: 10px 0px 5px rgb(1,1,1);
+    padding-bottom: 5px;
+}
+.channel_header {
+    padding-bottom: 5px;
+}
 /* user mentions for other people */
 .app_preview_link_slug.ts_tip,
 .internal_member_link.ts_tip,
@@ -583,12 +612,12 @@ ts-mention.ts_tip:hover
 .rxn .emoji-sizer {
   background-color: transparent !important;
   border-radius: 7px;
-  width: 24px;
-  height: 24px;
+  width: 16px !important;
+  height: 16px !important;
+  font-size: 16px !important;
   margin: 0 0 0 -2px !important;
   border: 1px solid transparent; /* looks silly but it makes the outline work */
 }
-
 .emoji-sizer {
    /* outline for black-on-transparent emojis */
    -webkit-filter: drop-shadow( 1px  0 0 var(--background-bright))
@@ -661,7 +690,7 @@ ts-mention.ts_tip:hover
    border-style: solid;
 }
 
-.light_theme .emoji-only {
+body .emoji-only {
    line-height: 3rem;
    font-size: 3rem;
    margin-top: 3px !important;
@@ -979,5 +1008,5 @@ ts-jumper, ts-jumper.active {
   background-color: rgba(32,32,32,0.6);
 }
 ts-jumper ts-jumper-container {
-  box-shadow: 0 5px 20px rgba(0,0,0,1);
+  box-shadow: 0 0px 0px rgba(0,0,0,1);
 }
