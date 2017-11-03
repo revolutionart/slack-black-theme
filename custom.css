@@ -48,6 +48,12 @@ a, a:link, a:visited {
 .dense_meta.msg_inline_file_preview_toggler .msg_inline_file_preview_title, .dense_meta.msg_inline_img_toggler .msg_inline_file_preview_title, .meta.msg_inline_file_preview_toggler .msg_inline_file_preview_title, .meta.msg_inline_img_toggler .msg_inline_file_preview_title {
     color: #298041 !important;
 }
+#message_edit_container .message_input.focus {
+    border-color: #298041 !important;
+    box-shadow: 0 0 7px rgba(39,128,248,.15);
+    outline-offset: 0;
+    outline: 0;
+}
 #message_edit_form .ql-editor, #message_edit_form .ql-placeholder, #msg_form .ql-editor, #msg_form .ql-placeholder {
     background: #333 !important;
 }
