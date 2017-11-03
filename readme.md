@@ -4,7 +4,7 @@ Polycount Color Scheme
 
 # Preview
 
-![Screenshot](https://i.gyazo.com/a15bae7f7d4ad1b4d4e4424b3085a1dd.png)
+![Screenshot](https://raw.githubusercontent.com/revolutionart/screenshots/master/polycount_slack_screenshot.png)
 
 # Installing into Slack
 
