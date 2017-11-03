@@ -24,8 +24,8 @@ limitations under the License.
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
-   --background-light: #AAA;
-   --background-bright: #FFF;
+   --background-light: #1e1e1e;
+   --background-bright: #252526;
 
    --border-dim: #666;
    --border-bright: var(--primary);
