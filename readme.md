@@ -14,17 +14,15 @@ Find your Slack's application directory.
 * Mac: `/Applications/Slack.app/Contents/`
 * Linux: `/usr/lib/slack/` (Debian-based)
 
-!!!! Slack Version 2.5.xx follow below:
-Open up the most recent version (e.g. `app-2.5.1`) then open
-`resources\app.asar.unpacked\src\static\index.js`
-Example: `C:\Users\USERNAME\AppData\Local\slack\app-2.8.2\resources\app.asar.unpacked\src\static`
+!**Slack Version 2.5.xx** follow below:
+1. Open up the most recent version (e.g. `app-2.5.1`) then open `resources\app.asar.unpacked\src\static\index.js`
+2. Example: `C:\Users\USERNAME\AppData\Local\slack\app-2.8.2\resources\app.asar.unpacked\src\static`
 
-!!!! Slack Version 3.0.xx follow below:
-Open up the most recent version (e.g. `app-3.0.0`) then open
-`resources\app.asar.unpacked\src\static\ssb-interop.js`
-Example: `C:\Users\USERNAME\AppData\Local\slack\app-3.0.0\resources\app.asar.unpacked\src\static`
+!**Slack Version 3.0.xx** follow below:
+1. Open up the most recent version (e.g. `app-3.0.0`) then open `resources\app.asar.unpacked\src\static\ssb-interop.js`
+2. Example: `C:\Users\USERNAME\AppData\Local\slack\app-3.0.0\resources\app.asar.unpacked\src\static`
 
-At the very bottom, add
+### At the very bottom, add
 
 ```
 // First make sure the wrapper app is loaded
@@ -80,5 +78,5 @@ the already-custom theme.) Also, you can put any CSS URL you want here,
 so you don't necessarily need to create an entire fork to change some small styles.
 
 That's it! Restart Slack and see how well it works.
-
-NB: You'll have to do this every time Slack updates.
+---
+**NB: You'll have to do this every time Slack updates.**
