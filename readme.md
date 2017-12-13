@@ -14,10 +14,15 @@ Find your Slack's application directory.
 * Mac: `/Applications/Slack.app/Contents/`
 * Linux: `/usr/lib/slack/` (Debian-based)
 
-
+!!!! Slack Version 2.5.xx follow below:
 Open up the most recent version (e.g. `app-2.5.1`) then open
 `resources\app.asar.unpacked\src\static\index.js`
 Example: `C:\Users\USERNAME\AppData\Local\slack\app-2.8.2\resources\app.asar.unpacked\src\static`
+
+!!!! Slack Version 3.0.xx follow below:
+Open up the most recent version (e.g. `app-3.0.0`) then open
+`resources\app.asar.unpacked\src\static\ssb-interop.js`
+Example: `C:\Users\USERNAME\AppData\Local\slack\app-3.0.0\resources\app.asar.unpacked\src\static`
 
 At the very bottom, add
 
