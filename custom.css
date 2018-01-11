@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #298041;
+   --primary: #61AFEF;
    --text: #AAA;
 	--background: #262626;
 	--background-elevated: #202020;
@@ -32,7 +32,7 @@ limitations under the License.
    --text-bright: #FFF;
    --text-special: var(--primary);
 
-   --scrollbar-background: #298041;
+   --scrollbar-background: #61AFEF;
    --scrollbar-border: var(--primary);
 }
 
@@ -40,13 +40,13 @@ h1, h2, h3, h4 {
   color: var(--text);
 }
 a, a:link, a:visited {
-    color: #298041 !important;
+    color: #61AFEF !important;
 }
 .popover_mask {
    background-color: rgba(0, 0, 0, 0.3);
 }
 .dense_meta.msg_inline_file_preview_toggler .msg_inline_file_preview_title, .dense_meta.msg_inline_img_toggler .msg_inline_file_preview_title, .meta.msg_inline_file_preview_toggler .msg_inline_file_preview_title, .meta.msg_inline_img_toggler .msg_inline_file_preview_title {
-    color: #298041 !important;
+    color: #61AFEF !important;
 }
 /* Team Picker */
 .TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
@@ -257,12 +257,12 @@ ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .
 }
 .light_theme ts-message .message_content .message_sender {
     font-weight: 900;
-    color: #298041 !important;
+    color: #61AFEF !important;
     line-height: 18px;
 }
 .light_theme ts-message .message_content a.message_sender, #msg_input::-webkit-input-placeholder,
 ts-jumper input[type="text"]::-webkit-input-placeholder {
-  color: #298041 !important;
+  color: #61AFEF !important;
 }
 
 #msg_input, #primary_file_button {
@@ -576,7 +576,7 @@ ts-message a.timestamp{
    color: var(--text);
 }
 #client_header {
-    background: #298041 !important;
+    background: #61AFEF !important;
     box-shadow: 10px 0px 5px rgb(1,1,1);
     padding-bottom: 5px;
 }
@@ -1023,10 +1023,10 @@ ts-jumper ts-jumper-container {
   box-shadow: 0 0px 0px rgba(0,0,0,1);
 }
 #message_edit_container .message_input {
-    border: 1px solid #298041 !important;
+    border: 1px solid #61AFEF !important;
 }
 #message_edit_container .message_input.focus {
-    border-color: #298041 !important;
+    border-color: #61AFEF !important;
     box-shadow: 0 0 7px rgba(39,128,248,.15);
     outline-offset: 0;
     outline: 0;
@@ -1035,7 +1035,7 @@ ts-jumper ts-jumper-container {
     background: #333 !important;
 }
 #message_edit_container .message_input.focus {
-    border-color: #298041 !important;
+    border-color: #61AFEF !important;
 }
 #message_edit_container .message_input {
     background: #333 !important;
